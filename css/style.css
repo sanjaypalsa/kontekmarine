@@ -2092,3 +2092,32 @@ footer-css-start */
   border-radius: 50px;
 }
 footer-css-end */
+
+/* header-search-start */
+.search-btn a { cursor: pointer; }
+.km-search-overlay { position: fixed; top: 0; left: 0; right: 0; z-index: 9999; display: none; padding: 14px 15px; background: rgba(7, 17, 32, 0.96); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35); }
+.km-search-overlay.open { display: block; }
+.km-search-box { max-width: 760px; margin: 0 auto; }
+.km-search-bar { display: flex; align-items: center; gap: 10px; background: #fff; border-radius: 8px; padding: 10px 14px; }
+.km-search-bar i { color: #27aae1; }
+.km-search-bar input { flex: 1; border: none; outline: none; font-size: 15px; }
+.km-search-close { border: none; background: #eef2f7; border-radius: 6px; font-size: 20px; line-height: 1; padding: 2px 10px; cursor: pointer; color: #1a2f5e; }
+.km-search-results { margin-top: 10px; background: #fff; border-radius: 8px; overflow: hidden; max-height: 60vh; overflow-y: auto; }
+.km-search-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 10px 14px; text-decoration: none; color: #1a2f5e; border-bottom: 1px solid #eef1f5; }
+.km-search-row:last-child { border-bottom: none; }
+.km-search-row:hover, .km-search-row.active { background: #eaf5fd; }
+.km-search-name { font-weight: 600; font-size: 14px; }
+.km-search-cat { font-size: 12px; color: #5b7290; background: #eef2f7; border-radius: 99px; padding: 2px 10px; white-space: nowrap; }
+.km-search-empty { padding: 14px; font-size: 14px; color: #33475f; }
+.km-search-empty a { color: #27aae1; font-weight: 600; }
+.km-search-sep { padding: 8px 14px 4px; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #5b7290; }
+.km-page-search { margin: 10px 0 20px; }
+.km-page-bar { display: flex; align-items: center; gap: 10px; background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 12px 16px; }
+.km-page-bar i { color: #27aae1; font-size: 18px; }
+.km-page-bar input { flex: 1; border: none; outline: none; font-size: 16px; }
+.km-page-count { margin: 12px 2px; font-size: 14px; color: #33475f; }
+#pageSearchResults .km-search-row { border: 1px solid #e3e9f0; border-radius: 8px; margin-bottom: 8px; background: #fff; }
+#pageSearchResults .km-search-row:hover { border-color: #27aae1; }
+.km-page-empty { background: #eef8fd; border-left: 4px solid #27aae1; padding: 14px 16px; font-size: 14px; border-radius: 0 8px 8px 0; }
+.km-page-empty a { color: #27aae1; font-weight: 600; }
+/* header-search-end */
