@@ -1,0 +1,19 @@
+# Video files
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.mkv
+*.webm
+*.mpeg
+*.mpg
+*.3gp
+*.ogv
+
+# Large archives and disk images
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.iso

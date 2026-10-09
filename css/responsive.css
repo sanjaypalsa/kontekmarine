@@ -1,0 +1,612 @@
+@media screen and (max-width:1210px){
+   li.nav-item.dropdown {
+    display: inline-block;
+    padding: 35px 10px;
+}
+    .menu ul li a {
+        font-size: 16px !important;
+    }
+    .banner-text h1 {
+    font-size: 60px;
+    line-height: 71px;
+    color: var(--primary-color);
+}
+.banner-text h4 {
+    font-size: 25px;
+    color: var(--primary-color);
+}
+h3{
+    font-size: 25px;
+    line-height: 25px;
+}
+.service-icon {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    right: 15px;
+}
+.service-icon .detail p {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+ .product_banner_text h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    line-height: 30px;
+    letter-spacing: 0.448px;
+    margin-bottom: 5px;
+}
+.marine_maintenance_text h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 45px;
+    margin-bottom: 20px;
+}
+.marine_maintenance_sec {
+    padding: 30px 0px;
+    background: #e8f4fd;
+}
+.service_we_offer_sec {
+    padding: 30px 0px;
+}
+.service_advantage_sec {
+    padding: 30px 0px;
+    background: #e8f4fd;
+}
+.service_why_choose_sec {
+    padding: 30px 0px;
+}
+.service_faq-sec {
+    padding: 30px 0px;
+    background-color: #e8f4fd;
+}
+.footer-sec {
+    background-color: white;
+    box-shadow: 0 0 10px #ddd;
+    padding: 30px 0px;
+}
+.product_inner_text h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.product_inner_sec {
+    padding: 30px 0px;
+    background: #e8f4fd;
+}
+.Automotive-section-title {
+    text-align: center;
+    font-size: 30px;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.Automotive_services {
+    padding: 30px 0px;
+}
+.industry-list h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.automative_why_choose_sec {
+    padding: 30px 0px;
+    text-align: center;
+}
+    
+}
+
+
+
+@media screen and (max-width:1024px){
+   .menu {
+    position: absolute;
+    top: 94px;
+    background: white;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+    box-shadow: 0 0 10px #ddd;
+}
+li.nav-item.dropdown {
+    width: 100%;
+    display: block;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    margin: 0px;
+}
+.show-menu .menu{
+    transform: scaleX(1);
+}
+.toogle-btn{
+    display: block;
+}
+.show-menu .fa-bars{
+    display: none;
+}
+.fa-xmark{
+    display: none;
+} 
+.show-menu .fa-xmark{
+    display: block;
+}   
+li.search-btn a i {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 22px;
+    color: var(--primary-color);
+    font-size: 20px;
+}
+ul.new-dropdown {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0px;
+    background: var(--primary-color);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+    text-align: center;
+    z-index: 1;
+    transform-origin: right;
+    transform: scaleX(0);
+}
+ul.new-dropdown li {
+    text-align: left;
+    width: 100%;
+    border-top: 1px solid #dddd;
+}
+.menu > ul > li.active ul.new-dropdown {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleX(1);
+}
+.banner-text h1 {
+    font-size: 50px;
+    line-height: 50px;
+    color: var(--primary-color);
+}
+.banner-text h4 {
+    font-size: 20px;
+    color: var(--primary-color);
+}
+.about-sec {
+    padding: 30px 0px;
+}
+.about-title h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.about-title h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.about-text H2 {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.future-sec {
+    background: #e9ecef!important;
+    padding: 30px 0px;
+}
+.meet-icon-text h4 {
+    color: white;
+    font-size: 20px;
+}
+.meet-icon-box .meet-icon {
+    font-size: 60px;
+    color: white;
+}
+.trade-inner-text h5 {
+   
+    font-size: 17px;
+   
+}
+.online-text {
+    padding: 10px 20px 10px 20px;
+  
+}
+.online-box .online-text h5 {
+    color: white;
+    font-size: 20px;
+}
+.service-sec {
+    padding: 30px 0px;
+}
+.service-title p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.service-boxes {
+    margin-top: 0px !important;
+}
+.counter-sec {
+  
+    padding: 40px 0px;
+  
+}
+.why-chhose-sec {
+    padding: 30px 0px;
+}
+.section-title h3 {
+    font-size: 23px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.section-title p {
+    margin-top: 10px;
+}
+.solution-sec {
+    background: #e9ecef!important;
+    padding: 30px 0px;
+}
+.service-title h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.banner_text {
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-30%, -46%);
+}
+.banner_text h1 {
+    color: white;
+    font-size: 40px;
+}
+.banner_text p {
+    color: white;
+    margin-top: 0px;
+}
+h4 {
+    font-size: 25px;
+    line-height: 28px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 32px;
+}
+.mvk_quate-text p {
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+.contact_content {
+    margin-left: 35px;
+}
+.contact_content p {
+    font-size: 15px;
+    line-height: 20px;
+}
+.contact_box_content_style .contact_box_inner .icon_box {
+  
+    left: 15px;
+
+}
+.faq-sec .section-title h1 {
+    font-size: 20px;
+}
+.faq-sec .tab-accordian h3 {
+    font-size: 18px;
+}
+
+
+   .product-grid { grid-template-columns: 1fr 1fr; }
+
+  
+
+ .product_banner_text h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    line-height: 23px;
+    letter-spacing: 0.448px;
+    margin-bottom: 5px;
+}
+.product_banner_text {
+    position: absolute;
+    top: 32%;
+    left: 30%;
+    transform: translate(-18%, -29%);
+}
+.Automotive-service-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.service_banner_text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    line-height: 45px;
+}
+}
+@media screen and (max-width:992px){
+    .service_banner_text h1 {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    line-height: 30px;
+}
+.marine_maintenance_text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.Marine.Engineering_text {
+    margin-top: 20px;
+}
+.Marine.Engineering_text h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+.service_faq-sec .tab-accordian h3 {
+    font-size: 20px;
+    line-height: 22px;
+}
+.product_inner_text h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.industry-list h2 {
+    font-size: 22px;
+    line-height: 28px;
+}
+.industry-list span {
+    font-size: 14px;
+    line-height: 18px;
+}
+  .blog-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+
+@media screen and (max-width:768px){
+.banner-text h1 {
+    font-size: 26px;
+    line-height: 27px;
+    color: var(--primary-color);
+}
+.banner-text {
+    position: absolute;
+    top: 64%;
+    left: 20%;
+    transform: translate(-20%, -60%);
+    text-align: center;
+}
+.online-ima img {
+    width: 100%;
+}
+.banner_text {
+  
+    display: none;
+}
+h2 {
+    font-size: 25px;
+    line-height: 30px;
+}
+.mvk_quate-text p {
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+}
+.network_topology_content p {
+    font-size: 16px !important;
+}
+.network_technology_item_images img {
+    width: 100%;
+}
+.digitization_text_content {
+    background: #27aae138;
+    padding: 10px;
+    width: 100%;
+}
+      .product-grid { grid-template-columns: 1fr; }
+     
+
+.hero_brand {
+    display: inline-block;
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.18);
+    padding: 4px 14px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+    color: #90caf9;
+    margin-bottom: 10px;
+}
+.product_banner_text h1 {
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    line-height: 16px;
+    letter-spacing: 0.448px;
+    margin-bottom: 5px;
+}
+.hero_dec p {
+    font-size: 10px;
+    color: #b0c4de;
+    max-width: 620px;
+    line-height: 14px;
+    margin-bottom: 1.5rem;
+}
+.product_banner_text {
+    position: absolute;
+    top: 42%;
+    left: 21%;
+    transform: translate(-16%, -41%);
+}
+.Automotive-service-grid{
+    grid-template-columns:1fr;
+}
+.Automotive-section-title {
+    text-align: center;
+    font-size: 30px;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-weight: 800;
+    line-height: 20px;
+}
+.Automotive_services {
+    padding: 30px 0px;
+}
+.service_faq-sec .tab-accordian h3 {
+    font-size: 16px;
+    line-height: 20px;
+}
+.marine_maintenance_text h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+    .Automotive-section-title {
+    text-align: center;
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-weight: 800;
+    line-height: 20px;
+}
+.product_inner_text h2 {
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.blog-grid{
+        grid-template-columns:1fr;
+    }
+}
+@media screen and (max-width:576px){
+
+.banner-text {
+   display: none;
+}
+.website-menu ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.website-menu ul li a {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.solution-imges a img {
+    width: 100%;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+li.search-btn {
+    display: none;
+}
+
+.contact-ugf {
+    padding: 20px 10px;
+    margin-top: -10px;
+}
+.contact-right-box .contact-title-right h2 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0 0 10px;
+    color: #1c2437;
+}
+.contact-ugf .contact-info .social-links a {
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 50%;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+.contact_content p {
+    font-size: 10px;
+    line-height: 15px;
+}
+.contact_content {
+    margin-left: 0px;
+}
+.contact_box_inner {
+ 
+    padding: 5px;
+  
+}
+.contact_box_content_style .contact_box_inner .icon_box {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: var(--primary-color);
+    border-radius: 50px;
+    margin: auto;
+    line-height: 40px;
+    top: 0;
+    bottom: 0;
+    left: 24px;
+    text-align: center;
+    display: none;
+}
+.contact-ugf h4 {
+    font-size: 20px;
+    color: #1c2437;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.contact-title-right p {
+    display: none;
+}
+.hero_dec p {
+    font-size: 10px;
+    color: #b0c4de;
+    max-width: 620px;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+.product_banner_text {
+    display: none;
+}
+.service_banner_text p {
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    line-height: 12px;
+}
+.service_banner_text h1 {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    line-height: 16px;
+}
+    
+}
+
